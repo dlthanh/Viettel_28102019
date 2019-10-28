@@ -1,0 +1,207 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+img {
+    vertical-align: middle;
+}
+.w980 {
+    width: 980px;
+    margin: 0 auto;
+}
+.w660 {
+    width: 660px;
+    margin: 0 auto;
+}
+.w450 {
+    width: 450px!important;
+    margin: 0 auto;
+}
+.emag-wrapper {
+    background-color: #fbf3e4;
+    padding-bottom: 60px;
+}
+/* .emag-cover {
+    padding-top: 44px;
+    background-color: #000;
+} */
+.emag-cover img {
+    width: 100%;
+}
+.emag-sapo {
+    margin: 60px auto;
+}
+.emag-sapo img {
+    width: 100%;
+}
+.emag-quote {
+    margin-top: -150px;
+}
+.emag-quote-head {
+    font-family: 'Gotham', sans-serif;
+    font-size: 30px;
+    color: #343434;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+.emag-quote-head span {
+    display: inline-block;
+}
+.emag-quote-head span::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #665f5d;
+}
+.emag-quote-text {
+    font-family: 'NotoSerif', serif;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 30px
+}
+.emag-title {
+    margin-bottom: 60px;
+}
+.emag-content p {
+    font-family: 'NotoSerif', serif;
+    font-size: 17px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.emag-content p.bold {
+    font-weight: 700;
+}
+.emag-content img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.emag-content-left::after,
+.emag-content-right::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.emag-content-left img {
+    float: right;
+    margin-left: 20px;
+    margin-right: -160px;
+    margin-top: 6px;
+}
+.emag-content-right img {
+    float: left;
+    margin-right: 20px;
+    margin-left: -160px;
+    margin-top: 6px;
+}
+.emag-fullwidth {
+    background: url('../images/bg-fullwidth.png') no-repeat center;
+    background-size: 100% auto;
+    background-color: #99d5d0;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 55px;
+}
+.emag-fullwidth-bottom {
+    /* background: url('../images/bg-fullwidth.png') no-repeat center; */
+    /* background-size: 100% auto; */
+    background-color: #99d5d0;
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 55px;
+    position: relative;
+}
+.emag-bottom {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0!important;
+}
+.emag-bottom-bg {
+    display: block;
+    position: absolute;
+    top: -6%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0!important;
+}
+/* .emag-fullwidth p {
+    color: #cccccc;
+} */
+.emag-two-column {
+    display: flex;
+    justify-content: space-between
+}
+.emag-column-left {
+    width: 465px;
+}
+.emag-column-right {
+    width: 475px;
+}
+.emag-credit {
+    margin: 60px auto 0;
+}
+.emag-credit p {
+    margin-bottom: 0;
+    font-family: 'Gotham', sans-serif;
+}
+.emag-column::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.emag-column img {
+    width: 488px;
+    height: 324px;
+    float: left;
+}
+.emag-column img:last-child {
+    margin-left: 4px;
+}
+.emag-album {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.emag-album img {
+    width: 488px;
+}
+.emag-album-withTop {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.emag-album-withTop img {
+    width: 488px;
+    margin-top: 0;
+}
+.emag-album-withTop img:first-child {
+    width: 100%;
+    margin-bottom: 5px!important;
+    margin-top: 30px;
+}
+
+.emag-caption {
+    font-family: Helvetica, Arial, sans-serif!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    margin-bottom: 30px;
+    color: #999;
+}
+.emag-image-flex {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
